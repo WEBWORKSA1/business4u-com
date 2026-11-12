@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Invoice Generator: Print or Save as PDF | Business4U.com</title>
+<meta name="description" content="Create a professional invoice in minutes. Add line items, tax and discounts, preview live, then print or save as PDF. Free, no sign-up, drafts saved in your browser.">
+<link rel="canonical" href="https://business4u.com/tools/invoice-generator.html">
+<meta name="theme-color" content="#14213D">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+<script src="../assets/js/config.js" defer></script>
+<script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+<div class="topbar"><a href="https://web.works/contact" target="_blank" rel="noopener"><strong>Contact</strong>, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership</a></div>
+<header id="site-header"></header>
+<main id="main">
+<div class="page-head"><div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a> / <a href="./">Tools</a> / Invoice generator</nav>
+<h1>Invoice generator</h1>
+<p class="lede">Fill in the form and watch the invoice build itself. Print it or choose "Save as PDF" in the print dialog. Your draft stays in this browser only.</p>
+</div></div>
+<div class="wrap" style="padding:32px 20px 10px">
+<div class="split">
+<form id="inv" class="card no-print" onsubmit="return false">
+<div class="row2"><div class="field"><label for="from">Your business name</label><input id="from" name="from"></div><div class="field"><label for="to">Client name</label><input id="to" name="to"></div></div>
+<div class="row2"><div class="field"><label for="fromd">Your address and contact</label><textarea id="fromd" name="fromd" style="min-height:80px"></textarea></div><div class="field"><label for="tod">Client address and contact</label><textarea id="tod" name="tod" style="min-height:80px"></textarea></div></div>
+<div class="row3"><div class="field"><label for="no">Invoice number</label><input id="no" name="no"></div><div class="field"><label for="date">Issue date</label><input id="date" name="date" type="date"></div><div class="field"><label for="due">Due date</label><input id="due" name="due" type="date"></div></div>
+<p class="lbl">Line items</p>
+<table class="items-table"><tbody id="inv-items"></tbody></table>
+<button type="button" class="btn btn-sm btn-ghost" id="add-line" style="margin:8px 0 16px">Add line</button>
+<div class="row3"><div class="field"><label for="cur">Currency</label><select id="cur" name="cur"><option>USD</option><option>CAD</option><option>GBP</option><option>EUR</option><option>INR</option><option>AUD</option></select></div><div class="field"><label for="tax">Tax rate %</label><input id="tax" name="tax" type="number" step="any"></div><div class="field"><label for="disc">Discount (amount)</label><input id="disc" name="disc" type="number" step="any"></div></div>
+<div class="field"><label for="notes">Notes and payment terms</label><textarea id="notes" name="notes" style="min-height:70px"></textarea></div>
+<div class="btn-row"><button type="button" class="btn btn-green" id="inv-print">Print or save PDF</button><button type="button" class="btn btn-ghost" id="inv-new">New invoice</button><button type="button" class="btn btn-ghost" id="inv-clear">Clear all</button></div>
+</form>
+<div><div class="doc" id="inv-doc" aria-live="polite"></div></div>
+</div>
+</div>
+<div class="wrap no-print" style="padding-bottom:40px">
+<div class="ad-slot" data-ad="incontent"></div>
+<article class="prose">
+<h2>What every invoice should include</h2>
+<ul>
+<li>Your business name and contact details, plus your tax registration number where required.</li>
+<li>A unique invoice number. Sequential numbers make bookkeeping and audits simple.</li>
+<li>Issue date and a clear due date.</li>
+<li>The client's name and address.</li>
+<li>Itemised products or services with quantity, rate and amount.</li>
+<li>Subtotal, discounts, tax shown separately, and the total due.</li>
+<li>Payment terms and how to pay.</li>
+</ul>
+<h2>Get paid faster</h2>
+<ol>
+<li>Invoice the same day you finish the work.</li>
+<li>Use short terms, such as 14 days, and state them clearly.</li>
+<li>Offer an easy payment method such as bank transfer or a card payment link.</li>
+<li>For larger projects, ask for a deposit of 30% to 50% upfront.</li>
+<li>Send a polite reminder the day after the due date, then weekly.</li>
+</ol>
+<div class="callout">Not sure what tax to charge? Use the <a href="sales-tax-calculator.html">sales tax, GST and VAT calculator</a>, and set up clean records with our <a href="../guides/bookkeeping-basics.html">bookkeeping basics guide</a>.</div>
+<div class="cta-box"><h3>Tired of chasing invoices?</h3><p>Get matched with bookkeepers who handle invoicing, collections and reconciliation.</p><a class="btn btn-hi" href="../get-matched/?need=accounting">Get matched free</a></div>
+</article>
+</div>
+</main>
+<footer id="site-footer"></footer>
+<script src="../assets/js/calculators.js" defer></script>
+<script src="../assets/js/tools-pro.js" defer></script>
+</body>
+</html>
